@@ -1,0 +1,4 @@
+(a) Because this dataset is almost balanced, we may use accuracy to assess performance.
+In the event if this was entirely imbalanced, we could have utilized precision and recall depending on what we wanted to predict in the end. AUC may also be used to assess performance in the case of an unbalanced dataset.
+
+(b) The performance steps are the same since we simply changed the smoothing value, or hyperparameter "alpha."

@@ -1,0 +1,667 @@
+********************MultinomialNB default values, try 1********************
+
+
+*****b)Confusion matrix*****
+
+[[100,   0,   2,   0,   2],
+ [  1,  65,   3,   0,   2],
+ [  0,   0,  82,   0,   0],
+ [  0,   0,   0,  98,   0],
+ [  0,   0,   1,   0,  89]]
+
+*****c)precision, recall and F1-measure*****
+
+               precision    recall  f1-score   support
+
+entertainment       0.99      0.96      0.98       104
+     business       1.00      0.92      0.96        71
+        sport       0.93      1.00      0.96        82
+     politics       1.00      1.00      1.00        98
+         tech       0.96      0.99      0.97        90
+
+     accuracy                           0.98       445
+    macro avg       0.98      0.97      0.97       445
+ weighted avg       0.98      0.98      0.98       445
+
+
+*****d)accuracy, macroaverage F1 and weighted-average F1*****
+
+Accuracy score : 
+0.9752808988764045
+
+Macro-F1 score : 
+0.9737751174040188
+
+Weighted-F1 score : 
+0.9752312980954347
+
+
+*****e)prior probabilities of classes*****
+
+Entertainment prior : 
+0.17348314606741572
+
+Business prior : 
+0.2292134831460674
+
+Sports prior : 
+0.22966292134831462
+
+Politics prior : 
+0.18741573033707865
+
+Tech prior : 
+0.1802247191011236
+
+
+*****f)size of vocabulary*****
+
+Vocabulary size : 
+29421
+
+
+*****g)number of word-tokens in each class*****
+
+Class : 
+entertainment
+Number of word-tokens : 
+2702
+
+Class : 
+business
+Number of word-tokens : 
+3570
+
+Class : 
+sport
+Number of word-tokens : 
+3577
+
+Class : 
+politics
+Number of word-tokens : 
+2919
+
+Class : 
+tech
+Number of word-tokens : 
+2807
+
+
+*****h)number of word-tokens in entire corpus*****
+
+Total number of word-tokens in corpus : 
+15575
+
+
+*****i)number and percentage of words with frequency 0 in each class*****
+
+Entertainment class, number of words with zero frequency : 
+15818
+and as percentage :
+53.764318004146695
+
+Business class, number of words with zero frequency : 
+14388
+and as percentage :
+48.90384419292342
+
+Sport class, number of words with zero frequency : 
+13549
+and as percentage :
+46.05213962815676
+
+Politic class, number of words with zero frequency : 
+15699
+and as percentage :
+53.359845008667286
+
+Tech class, number of words with zero frequency : 
+16152
+and as percentage :
+54.899561537677165
+
+
+*****j)number and percentage of words with frequency 1 in entire corpus*****
+
+10005
+and as percentage :
+34.006322014887324
+
+
+*****k)log-prob of 2 favorite words per class*****
+
+My chosen words : spring and individual
+
+log-prob of spring in class Entertainment
+-0.15868271931723307
+log-prob of spring in class Business
+0.1383914111646296
+log-prob of spring in class Sport
+0.3610908848177623
+log-prob of spring in class Politics
+0.17589602664875068
+log-prob of spring in class Tech
+0.2972070424614569
+
+log-prob of individual in class Entertainment
+0.6009851253723975
+log-prob of individual in class Business
+0.7219679967985787
+log-prob of individual in class Sport
+0.6398444857705913
+log-prob of individual in class Politics
+0.6152287204790133
+log-prob of individual in class Tech
+0.5110868624065379
+********************MultinomialNB default values, try 2********************
+
+Comparing the predictions values to the expected values: 
+...printing 20 first values of each for visualization
+
+y predictions 0 to 20
+[0 4 0 3 0 0 1 0 0 1 3 0 1 3 3 2 3 2 0 2]
+
+y tests 0 to 20
+[0 1 0 3 0 0 1 0 0 1 3 0 1 3 3 2 3 2 0 2]
+
+Testing if they are the same beyond the first 20 values,
+print success message if they are the same
+
+one or more values are not matching.
+
+*****b)Confusion matrix*****
+
+[[100,   0,   2,   0,   2],
+ [  1,  65,   3,   0,   2],
+ [  0,   0,  82,   0,   0],
+ [  0,   0,   0,  98,   0],
+ [  0,   0,   1,   0,  89]]
+
+*****c)precision, recall and F1-measure*****
+
+               precision    recall  f1-score   support
+
+entertainment       0.99      0.96      0.98       104
+     business       1.00      0.92      0.96        71
+        sport       0.93      1.00      0.96        82
+     politics       1.00      1.00      1.00        98
+         tech       0.96      0.99      0.97        90
+
+     accuracy                           0.98       445
+    macro avg       0.98      0.97      0.97       445
+ weighted avg       0.98      0.98      0.98       445
+
+
+*****d)accuracy, macroaverage F1 and weighted-average F1*****
+
+Accuracy score : 
+0.9752808988764045
+
+Macro-F1 score : 
+0.9737751174040188
+
+Weighted-F1 score : 
+0.9752312980954347
+
+
+*****e)prior probabilities of classes*****
+
+Entertainment prior : 
+0.17348314606741572
+
+Business prior : 
+0.2292134831460674
+
+Sports prior : 
+0.22966292134831462
+
+Politics prior : 
+0.18741573033707865
+
+Tech prior : 
+0.1802247191011236
+
+
+*****f)size of vocabulary*****
+
+Vocabulary size : 
+29421
+
+
+*****g)number of word-tokens in each class*****
+
+Class : 
+entertainment
+Number of word-tokens : 
+2702
+
+Class : 
+business
+Number of word-tokens : 
+3570
+
+Class : 
+sport
+Number of word-tokens : 
+3577
+
+Class : 
+politics
+Number of word-tokens : 
+2919
+
+Class : 
+tech
+Number of word-tokens : 
+2807
+
+
+*****h)number of word-tokens in entire corpus*****
+
+Total number of word-tokens in corpus : 
+15575
+
+
+*****i)number and percentage of words with frequency 0 in each class*****
+
+Entertainment class, number of words with zero frequency : 
+15818
+and as percentage :
+53.764318004146695
+
+Business class, number of words with zero frequency : 
+14388
+and as percentage :
+48.90384419292342
+
+Sport class, number of words with zero frequency : 
+13549
+and as percentage :
+46.05213962815676
+
+Politic class, number of words with zero frequency : 
+15699
+and as percentage :
+53.359845008667286
+
+Tech class, number of words with zero frequency : 
+16152
+and as percentage :
+54.899561537677165
+
+
+*****j)number and percentage of words with frequency 1 in entire corpus*****
+
+10005
+and as percentage :
+34.006322014887324
+
+
+*****k)log-prob of 2 favorite words per class*****
+
+My chosen words : spring and individual
+
+log-prob of spring in class Entertainment
+-0.15868271931723307
+log-prob of spring in class Business
+0.1383914111646296
+log-prob of spring in class Sport
+0.3610908848177623
+log-prob of spring in class Politics
+0.17589602664875068
+log-prob of spring in class Tech
+0.2972070424614569
+
+log-prob of individual in class Entertainment
+0.6009851253723975
+log-prob of individual in class Business
+0.7219679967985787
+log-prob of individual in class Sport
+0.6398444857705913
+log-prob of individual in class Politics
+0.6152287204790133
+log-prob of individual in class Tech
+0.5110868624065379
+
+
+********************MultinomialNB default values, smoothing val : 0.0001********************
+
+Comparing the predictions values to the expected values: 
+...printing 20 first values of each for visualization
+
+y predictions 0 to 20
+[0 0 0 3 0 0 1 0 0 1 3 0 1 3 3 2 3 2 0 2]
+
+y tests 0 to 20
+[0 1 0 3 0 0 1 0 0 1 3 0 1 3 3 2 3 2 0 2]
+
+Testing if they are the same beyond the first 20 values,
+print success message if they are the same
+
+one or more values are not matching.
+
+*****b)Confusion matrix*****
+
+[[100,   0,   1,   0,   3],
+ [  2,  66,   2,   0,   1],
+ [  0,   1,  81,   0,   0],
+ [  0,   0,   0,  98,   0],
+ [  1,   0,   0,   0,  89]]
+
+*****c)precision, recall and F1-measure*****
+
+               precision    recall  f1-score   support
+
+entertainment       0.97      0.96      0.97       104
+     business       0.99      0.93      0.96        71
+        sport       0.96      0.99      0.98        82
+     politics       1.00      1.00      1.00        98
+         tech       0.96      0.99      0.97        90
+
+     accuracy                           0.98       445
+    macro avg       0.98      0.97      0.97       445
+ weighted avg       0.98      0.98      0.98       445
+
+
+*****d)accuracy, macroaverage F1 and weighted-average F1*****
+
+Accuracy score : 
+0.9752808988764045
+
+Macro-F1 score : 
+0.9742573048191817
+
+Weighted-F1 score : 
+0.9751937421523597
+
+
+*****e)prior probabilities of classes*****
+
+Entertainment prior : 
+0.17348314606741572
+
+Business prior : 
+0.2292134831460674
+
+Sports prior : 
+0.22966292134831462
+
+Politics prior : 
+0.18741573033707865
+
+Tech prior : 
+0.1802247191011236
+
+
+*****f)size of vocabulary*****
+
+Vocabulary size : 
+29421
+
+
+*****g)number of word-tokens in each class*****
+
+Class : 
+entertainment
+Number of word-tokens : 
+2702
+
+Class : 
+business
+Number of word-tokens : 
+3570
+
+Class : 
+sport
+Number of word-tokens : 
+3577
+
+Class : 
+politics
+Number of word-tokens : 
+2919
+
+Class : 
+tech
+Number of word-tokens : 
+2807
+
+
+*****h)number of word-tokens in entire corpus*****
+
+Total number of word-tokens in corpus : 
+15575
+
+
+*****i)number and percentage of words with frequency 0 in each class*****
+
+Entertainment class, number of words with zero frequency : 
+15818
+and as percentage :
+53.764318004146695
+
+Business class, number of words with zero frequency : 
+14388
+and as percentage :
+48.90384419292342
+
+Sport class, number of words with zero frequency : 
+13549
+and as percentage :
+46.05213962815676
+
+Politic class, number of words with zero frequency : 
+15699
+and as percentage :
+53.359845008667286
+
+Tech class, number of words with zero frequency : 
+16152
+and as percentage :
+54.899561537677165
+
+
+*****j)number and percentage of words with frequency 1 in entire corpus*****
+
+10005
+and as percentage :
+34.006322014887324
+
+
+*****k)log-prob of 2 favorite words per class*****
+
+My chosen words : spring and individual
+
+log-prob of spring in class Entertainment
+-0.15868271931723307
+log-prob of spring in class Business
+0.1383914111646296
+log-prob of spring in class Sport
+0.3610908848177623
+log-prob of spring in class Politics
+0.17589602664875068
+log-prob of spring in class Tech
+0.2972070424614569
+
+log-prob of individual in class Entertainment
+0.6009851253723975
+log-prob of individual in class Business
+0.7219679967985787
+log-prob of individual in class Sport
+0.6398444857705913
+log-prob of individual in class Politics
+0.6152287204790133
+log-prob of individual in class Tech
+0.5110868624065379
+
+
+********************MultinomialNB default values, smoothing val : 0.9********************
+
+Comparing the predictions values to the expected values: 
+...printing 20 first values of each for visualization
+
+y predictions 0 to 20
+[0 4 0 3 0 0 1 0 0 1 3 0 1 3 3 2 3 2 0 2]
+
+y tests 0 to 20
+[0 1 0 3 0 0 1 0 0 1 3 0 1 3 3 2 3 2 0 2]
+
+Testing if they are the same beyond the first 20 values,
+print success message if they are the same
+
+one or more values are not matching.
+
+*****b)Confusion matrix*****
+
+[[100,   0,   2,   0,   2],
+ [  1,  65,   3,   0,   2],
+ [  0,   0,  82,   0,   0],
+ [  0,   0,   0,  98,   0],
+ [  0,   0,   1,   0,  89]]
+
+*****c)precision, recall and F1-measure*****
+
+               precision    recall  f1-score   support
+
+entertainment       0.99      0.96      0.98       104
+     business       1.00      0.92      0.96        71
+        sport       0.93      1.00      0.96        82
+     politics       1.00      1.00      1.00        98
+         tech       0.96      0.99      0.97        90
+
+     accuracy                           0.98       445
+    macro avg       0.98      0.97      0.97       445
+ weighted avg       0.98      0.98      0.98       445
+
+
+*****d)accuracy, macroaverage F1 and weighted-average F1*****
+
+Accuracy score : 
+0.9752808988764045
+
+Macro-F1 score : 
+0.9737751174040188
+
+Weighted-F1 score : 
+0.9752312980954347
+
+
+*****e)prior probabilities of classes*****
+
+Entertainment prior : 
+0.17348314606741572
+
+Business prior : 
+0.2292134831460674
+
+Sports prior : 
+0.22966292134831462
+
+Politics prior : 
+0.18741573033707865
+
+Tech prior : 
+0.1802247191011236
+
+
+*****f)size of vocabulary*****
+
+Vocabulary size : 
+29421
+
+
+*****g)number of word-tokens in each class*****
+
+Class : 
+entertainment
+Number of word-tokens : 
+2702
+
+Class : 
+business
+Number of word-tokens : 
+3570
+
+Class : 
+sport
+Number of word-tokens : 
+3577
+
+Class : 
+politics
+Number of word-tokens : 
+2919
+
+Class : 
+tech
+Number of word-tokens : 
+2807
+
+
+*****h)number of word-tokens in entire corpus*****
+
+Total number of word-tokens in corpus : 
+15575
+
+
+*****i)number and percentage of words with frequency 0 in each class*****
+
+Entertainment class, number of words with zero frequency : 
+15818
+and as percentage :
+53.764318004146695
+
+Business class, number of words with zero frequency : 
+14388
+and as percentage :
+48.90384419292342
+
+Sport class, number of words with zero frequency : 
+13549
+and as percentage :
+46.05213962815676
+
+Politic class, number of words with zero frequency : 
+15699
+and as percentage :
+53.359845008667286
+
+Tech class, number of words with zero frequency : 
+16152
+and as percentage :
+54.899561537677165
+
+
+*****j)number and percentage of words with frequency 1 in entire corpus*****
+
+10005
+and as percentage :
+34.006322014887324
+
+
+*****k)log-prob of 2 favorite words per class*****
+
+My chosen words : spring and individual
+
+log-prob of spring in class Entertainment
+-0.15868271931723307
+log-prob of spring in class Business
+0.1383914111646296
+log-prob of spring in class Sport
+0.3610908848177623
+log-prob of spring in class Politics
+0.17589602664875068
+log-prob of spring in class Tech
+0.2972070424614569
+
+log-prob of individual in class Entertainment
+0.6009851253723975
+log-prob of individual in class Business
+0.7219679967985787
+log-prob of individual in class Sport
+0.6398444857705913
+log-prob of individual in class Politics
+0.6152287204790133
+log-prob of individual in class Tech
+0.5110868624065379

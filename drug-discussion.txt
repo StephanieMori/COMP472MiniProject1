@@ -1,0 +1,3 @@
+Task 2 : part 8 
+Only the MLP and top MLP will change in value; because the technique use randomization to discover a suitable set of weights for the specific mapping function from inputs to outputs in the data being learnt. 
+It implies that each time the training algorithm is run, the unique network on the specific training data will fit a new network with a different model skill.
